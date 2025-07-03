@@ -39,7 +39,7 @@ Cette application web React permet de simuler le téléchargement de fichiers ve
 ### Déploiement sur GitHub Pages
 
 1.  Assurez-vous que le champ `homepage` dans `package.json` est correctement configuré :
-    `"homepage": "https://Kurosaki969.github.io/telegraph-uploader"`
+    `"homepage": "https://github_username.github.io/your_repo_name"`
 2.  Exécutez la commande de déploiement :
     ```bash
     npm run deploy
