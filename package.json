@@ -1,0 +1,27 @@
+{
+  "name": "telegraph-uploader",
+  "version": "1.0.0",
+  "description": "Une application web React pour télécharger des fichiers sur Telegra.ph.",
+  "main": "index.js",
+  "homepage": "https://Kurosaki969.github.io/telegraph-uploader",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html --dist-dir dist --public-url ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.12.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4"
+  }
+}
